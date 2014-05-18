@@ -1,0 +1,328 @@
+@charset "utf-8";
+/* CSS Document */
+body 
+{
+	display:-webkit-box;
+    -webkit-font-smoothing: antialiased;
+}
+#body{
+    margin:0px 0px;
+	width:1200px;
+	height:2000px;
+    background-color:#8e4423;
+    background-image:url("back.png");
+    background-size:cover;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    text-align:center;
+}
+
+#main_header{
+  border-radius:10px;
+  background-image: -moz-linear-gradient( 90deg, #272a2d 0%, #1f2224 100%);
+  background-image: -webkit-linear-gradient( 90deg, #272a2d 0%, #1f2224 100%);
+  background-image: -ms-linear-gradient( 90deg, #272a2d 0%, #1f2224 100%);
+  box-shadow: 0px 0px 3px 0px rgb( 0, 0, 0 );
+    display:-webkit-box;
+    -webkit-box-orient:horizontal;
+  position: relative;
+  left: 120px;
+  top: -18px;
+  width: 960px;
+  height: 92px;  
+  color:#e6e3bb;
+}
+
+#main_header ul 
+{
+    margin-top:40px;
+    display:inline-block;
+    position:relative;
+    border-left: 1px solid #7b7a6d;
+    text-indent:0px;
+}
+#main_header ul li
+{
+	list-style:none;
+    display:inline-block;
+    padding-left:20px;
+    font: 14px "Myriad pro";
+    padding-top:5px;
+    padding-bottom:5px;
+    text-indent:0px;
+}
+#main_header h1
+{
+	margin: 25px 20px;
+	font: 30pt italic "Nikaia script";
+    text-align:left;
+}
+.name {
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb( 123, 122, 109 );
+  text-align: right;
+}
+.name strong
+{
+    text-decoration:none;
+    color:#8e4423;
+}
+#userid {
+    border-radius: 5px;
+    background-image: -moz-linear-gradient( 90deg, #3f4245 0%, #242628 100%);
+    background-image: -webkit-linear-gradient( 90deg,#242628  0%, #1b1d1e 100%);
+    background-image: -ms-linear-gradient( 90deg, #3f4245 0%, #242628 100%);
+    border-bottom: 1px solid #3f4245;
+    box-shadow: 0px 0px 4px 0px rgb( 0, 0, 0 );
+    position:relative;
+    top: 40px;
+    left:90px;
+    width: auto;
+    height: 22px;
+    padding:5px;
+    padding-top:3px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:0px;
+}
+.signout
+{
+    font-size: 14px;
+    font-family: "Myriad Pro";  
+}
+#logout 
+{
+    border-radius: 5px;
+    background-image: -moz-linear-gradient( 90deg, #803c1f 0%, #9f4e28 100%);
+    background-image: -webkit-linear-gradient( 90deg, #803c1f 0%, #9f4e28 100% );
+    background-image: -ms-linear-gradient( 90deg, #803c1f 0%, #9f4e28 100% );
+    border-top: 1px solid #b57657;
+    box-shadow: 0px 0px 4px 0px rgb( 0, 0, 0 );
+    position:relative;
+    top: 40px;
+    left:30px;
+    width: auto;
+    height: 22px;
+    padding:5px;
+    padding-top:3px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:0px;
+    margin-left:80px;
+}
+#main_section
+{
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    width:960px;
+    height:1300px;
+    background-color:#242729;
+    border-radius:10px;
+    border-top: 1px solid #545658;
+    position:relative;
+    left: 120px;
+    box-shadow: 0px 0px 4px 0px rgb( 0, 0, 0 );
+}
+img
+{  margin-top:0px;}
+#article
+{
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    text-align:center;
+}
+#sec1
+{
+    text-align:left;
+    margin:10px;
+    margin-top:35px;
+    color:#7b7a6d;
+    font-family: "myriad pro";
+    display:-webkit-box;
+    -webkit-box-orient:horizontal;
+    -webkit-pack:center;
+    padding-bottom:32px;
+    border-bottom:1px solid #393b3d;
+}
+#sec1 article
+{
+    -webkit-box-flex:1;
+    padding-left:10px;
+}
+#sec1 > img
+{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:20px;
+    box-shadow: 0px 0px 4px 0px rgb( 0, 0, 0 );
+}
+#sec1 h2, #s2p2 h2
+{   
+    margin-top:25px;
+    font: 18px bold "Myriad Pro";
+    color:#8e4423;
+    line-height:0;
+}
+#sec1 h3, #s2p2 h3
+{
+	color:#7b7a6d;
+    line-height:0;
+    text-decoration:none;
+    font: 12px italic "Myriad Pro";
+}
+#sec1 p, #s2p2 p
+{
+    position:relative;
+    top:5px;
+    font: 13px bold "myriad pro";    
+	color:#7b7a6d;
+}
+#logo
+{
+    float:left;
+    margin-left:0px;
+    margin-top:20px;
+    margin-right:5px;
+}
+#s1i3
+{
+    margin-right:5px;
+}
+#sec2
+{
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    padding:20px;
+}
+#s2p1
+{   
+    display:-webkit-box;
+    -webkit-box-orient:horizontal;
+    position:relative;
+    top:-10px;
+}
+#s2p1p1,#s2p1p2,#s2p1p3
+{
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    text-align:center;
+    -webkit-box-flex:1;
+    font-family: "myriad pro";
+    font-size:13px;
+    color:#7b7a6d;
+}
+
+#s2p1p1>h2,#s2p1p2>h2,#s2p1p3>h2
+{
+    text-decoration:none;
+    font: 18px normal "nikaia script";
+    color:#8e4423;
+}
+#s2p1p1>p,#s2p1p2>p,#s2p1p3>p
+{
+    position:relative;
+    top:-25px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+#s2p1p2>p
+{
+    padding-left:55px;
+    padding-right:55px;
+}
+.topbar {
+    background-image: -moz-linear-gradient( 90deg, #75351b 0%, #a7532b 100%);
+    background-image: -webkit-linear-gradient( 90deg, #75351b 0%, #a7532b 100%);
+    background-image: -ms-linear-gradient( 90deg, #75351b 0%, #a7532b 100%);
+    border-top: 1px solid #b56d4b;
+    width: 960px;
+    height: 29px;   
+}
+#s2bg
+{
+    margin-top:40px;
+    position:absolute;
+    left:0px;
+}
+.learnmore {
+    border-top:1px solid #7e8183;
+    border-radius: 5px;
+    background-image: -moz-linear-gradient( 90deg, #202324, #3b4043 100%);
+    background-image: -webkit-linear-gradient( 90deg, #202324 0%, #3b4043 100%);
+    background-image: -ms-linear-gradient( 90deg, #202324 0%, #3b4043 100%);
+    width:auto;
+    padding:5px;
+    color:#e6e3bb;
+    position:relative;
+    top:-20px;
+    text-align:center;
+    margin:0px 110px;
+}
+.bg {    
+    background:#e6e3bb;
+    box-shadow: 0.5px 0.866px 0px 0px rgb( 0, 0, 0 );
+    position: absolute;
+    width: 960px;
+    height: 519px;
+    top:15px;
+}
+#s2p2
+{
+    position:relative;
+}
+#s2p2h
+{
+	position:relative;
+	display:-webkit-box;
+    -webkit-box-orient:horizontal;
+    -webkit-box-pack:center;
+	-webkit-box-ordinal-group:1;
+	z-index:1;
+}
+#s2p2 article
+{
+    display:-webkit-box;
+    -webkit-box-orient:horizontal;
+	width:920px;
+	position:relative;
+	background:#242729;
+	border-top:1px solid #4d5051;
+	border-radius:5px;
+	box-shadow: 0px 0px 4px 0px rgb( 0, 0, 0 );
+	-webkit-box-ordinal-group:2;
+	z-index:2;
+}
+#s2p2ap1,#s2p2ap2,#s2p2ap3
+{
+    padding:30px;  
+	position:relative;
+	-webkit-box-flex:1;
+	text-align:left;
+	width:20px;
+}
+#s2p2ap1 img,#s2p2ap2 img,#s2p2ap3 img
+{
+	position: relative;
+    float:left;
+    padding-right:10px;
+}
+#s2p2ap1 h2,#s2p2ap2 h2,#s2p2ap3 h2
+{
+    margin-top:0;
+}
+#s2p2h>div
+{
+	width: 120px;
+	height: 22px;
+	margin-top: 10px;
+	border-bottom:1px black solid;
+	text-align: center;
+	border-radius: 3px 3px 0px 0px;
+	background-image: -moz-linear-gradient( 90deg, #242729, #3c3f40 100%);
+	background-image: -webkit-linear-gradient( 90deg, #242729 0%, #3c3f40 100%);
+	background-image: -ms-linear-gradient( 90deg, #242729 0%, #3c3f40 100%);
+	color:#e6e3bb;
+	font-family: "Vegur"
+}
