@@ -9,7 +9,8 @@
 	background-image: -webkit-linear-gradient( 90deg, #242729 0%, #3c3f40 100%);
 	background-image: -ms-linear-gradient( 90deg, #242729 0%, #3c3f40 100%);
 	border-top:1px solid #7e8183;
-	}
+        z-index:9;
+}
 
 </style>
 
@@ -29,10 +30,19 @@
             <li><a href="#" class:"link">Blog</a></li>
             <li><a href="#" class:"link">Contact</a></li>
         </ul>
+        <div id="space"></div>
         <a href=# id="userid" class="name"> Welcome Back, <strong>JohnDoe81</strong></a>
         <a href=# id="logout" class="signout">Client Sign-Out</a>
     </header>
     <img src="badge.png" id="badge"/>
+    <section id="secspec">
+        <div class="space"></div>
+        <div id="featured_title">
+        <a href='#'><img src="arrow_l.png"/></a><div>Featured Title</div><a href='#'><img src="arrow_r.png"/></a>
+        </div>
+        <div class='space'></div>
+    </section>
+    
     <section id="main_section">
             <article id="article">
                 <section id="sec1">
@@ -46,12 +56,8 @@
                         <p>Donec pellentesque, justo eget imperdiet viverra, lectus mi ornare arcu, non laoreet lacus lacus eleifend orci. Nam tincidunt vestibulum lacus nec pharetra. Nunc commodo aliquam lectus quis bibendum. Proin ut erat quis nulla tempor imperdiet ac et lorem.</p>
                      </article>
                 </section>
-                <section id="sec2">
-                    <div id="s2bg">
-                        <div class="topbar"></div>
-                        <div class="bg"></div>
-                        <div class="bottombar"></div>
-                    </div>
+                <section id="sec2" class=bg>
+                    <div class="topbar"></div>
                     <div id="s2p1">
                         <div id="s2p1p1">
                             <img src="s2i1.png"/>
@@ -59,12 +65,14 @@
                             <p>Donec pellentesque, justo eget imperdiet viverra, lectus mi ornare arcu, non laoreet lacus lacus eleifend orci. Nam tincidunt vestibulum lacus nec pharetra. Nunc commodo aliquam lectus quis bibendum.</p>
                             <a href="#" class="learnmore">learn more</a>
                         </div> 
+                        <img src="teeth.png" class="s2p1teeth"/>
                         <div id="s2p1p2">
                             <img src="s2i2.png"/>
                             <h2><em>WORK</em></h2>
                             <p>Justo eget imperdiet viverra, lectus mi ornare arcu, non laoreet lacus lacus eleifend orci. Nam tincidunt vestibulum lacus nec pharetra. Nunc commodo aliquam lectus quis bibendum. Nam tincidunt.   </p>
                             <a href="#" class="learnmore">learn more</a>
                         </div>
+                        <img src="teeth.png" class="s2p1teeth"/>
                         <div id="s2p1p3">
                             <img src="s2i3.png"/>
                             <h2><em>DELIVER</em></h2>
@@ -73,12 +81,15 @@
                         </div>
                     </div>
                     <div id="s2p2">
-                        <header id="s2p2h">
-                        	<ul>
-                          		<li id="latest_press"><a href='#'>Latest Press</a></li>
-                            	<li id="testimonials"><a href='#'>Testimonials</a></li>
-                            	<li id="blog_posts"><a href='#'>Blog Posts</a></li>
+                        <header class="dummy">
+                            <ul>
+                          		<li ><a href='#'>Latest Press</a></li>
+                            	<li ><a href='#'>Testimonials</a></li>
+                            	<li ><a href='#'>Blog Posts</a></li>
                             </ul>
+                        </header>
+                        <header id="s2p2h">
+                        	<a href='#' id="latest_press">Latest Press</a></li>
                         </header> 
                         <article id="s2p2a">
                         	<div id="leftarrow"><a href="#"><img href="#" src="arrow_l_b.png"/></a></div>
@@ -103,12 +114,86 @@
                             <div id="rightarrow"><a href="#"><img href="#" src="arrow_r_b.png"/></a></div>                       
                         </article>
                     </div>
+                    <div class="bottombar"></div>
                 </section>              
+                <section id="sec3">
+                    <article id='s3p1'>                        
+                        <div id="s3p1img"></div>
+                        <p><h2><em><strong>Pharetra</strong> Eget</em></h2>Donec pellentesque, justo eget imperdiet viverra, lectus mi ornare arcu, non laoreet lacus lacus eleifend orci. Nam tincidunt vestibulum lacus nec pharetra. Nunc commodo aliquam lectus quis bibendum.<br/> <br/>Donec pellentesque, justo eget imperdiet viverra, lectus mi ornare arcu, non laoreet lacus lacus eleifend orci. Nam tincidunt vestibulum lacus nec pharetra. Nunc commodo aliquam lectus quis bibendum.</p>                        
+                    </article>
+                    <img style=" position:relative; margin-right:10px;" src="s3i1.png"/>
+                    <article id='s3p2'>
+                        <h2><em><strong>Newsletter</strong> Subscription</em></h2>
+                        <div id="emailb">
+                            <input id="emailtext" type="email" placeholder="you@yourcompany.com"/>
+					       <input id="signup" type="button" value="Sign-Up" />
+                        </div>
+                        <div class='space'></div>
+                        
+                        <div id="twitter">
+                            <div id="twit_logo">
+                                <div><img src="twit_logo.png"/></div>
+                                <div id="follow"><a href='#' >follow</a></div>
+                            </div>
+                            <div id="tweet">
+                                <p>RT @_1981_: Check out his awesome template on #themeforest - <strong>http://www.themeforest.net</strong> :D</p>
+                                
+                            </div>                        
+                        </div>
+                    
+                    </article>
+                    
+                </section>
                 <section id="sec4">
+                    <section id="s4p1">
+                        <h2>Flickr</h2>
+                        <div class='row'>
+                            <div id='img_dummy'></div>
+                            <div id='img_dummy'></div>
+                            <div id='img_dummy'></div>
+                            <div id='img_dummy'></div>
+                        </div>
+                        <div class='row'>
+                            <div id='img_dummy'></div>
+                            <div id='img_dummy'></div>
+                            <div id='img_dummy'></div>
+                            <div id='img_dummy'></div>
+                        </div>
+                    </section>
+                    <img src="s4teeth.png" class="s4teeth"/>
+                    <section id="s4p2">
+                        <h2>Featured Clients</h2>
+                        <div class='special'><img src="s4p2i1.png"/></div>
+                        <div><img src="s4p2i2.png"/></div>
+                        <div><img src="s4p2i3.png"/></div>
+                        <div><img src="s4p2i4.png"/></div>
+                    </section>
+                    <img src="s4teeth.png" class="s4teeth"/>
+                    <section id="s4p3">
+                        <h2>Our Friends</h2>
+                        <ul>
+                            <li>GraphicRiver</li>
+                            <li>ThemeForest</li>
+                            <li>NineteenEightyOne</li>
+                            <li>SuiteTuts</li>
+                            <li>WeAreRuckus</li>
+                        </ul>
+                    </section>
+                    <section id="s4p4">
+                        <h2>Pages</h2>
+                        <ul>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Work</li>
+                            <li>Blog</li>
+                            <li>Contact</li>
+                        </ul>
+                    </section>
                 </section>
-                <section id="sec5">
-                </section>
-                <footer><p>Copyright 2011| Nineteen Eighty-One</p></footer>
+                <footer id=main_footer><p>Copyright 2011| Nineteen Eighty-One</p>
+                    <div id='space'></div>
+                    <p><a href=# >FAQ</a>  /  <a href=# >Privacy Policy</a>  /  <a href=# >API</a>  /  <a href=# >Advertise</a></p>
+                </footer>
         </article>    
     </section>
 </div>
